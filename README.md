@@ -71,4 +71,6 @@
    > 3. cmd(server) > npm install cors   
    > 4. then require, and use the cors in the index.js  
 
+   * NOTE: if we want to push the server file into the git then we have to create a file .gitignore then write (node_modules)
+
    
