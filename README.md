@@ -9,9 +9,9 @@
         >> * code . (for open the project at vscode)
 
  * Step:2 ==> Firebase setup ::
-       * go to the firebase.google.com
-       * then create a firebase project
-       * project name> (disable the enable)> again project name> copy the SDK file then create a file such as: "src> firebase> firebase-config.js" then paste to it. 
+    * go to the firebase.google.com
+    * then create a firebase project
+    * project name> (disable the enable)> again project name> copy the SDK file then create a file such as: "src> firebase> firebase-config.js" then paste to it. 
         --> at the last line of the file just (export default app;)
         ---> enable some of the auth provider as necessary for authentication
 
@@ -49,4 +49,26 @@
    1. go to the "react icons" site
    2. cmd> npm install react-icons --save
    3. import { IconName } from "react-icons/fa";
+
+* --------------------------------------------------------------
+*      SERVER API (using express js(nodejs))
+* -----------------------------------------------------------------
+* * Steps::
+  > * go to the "expressjs" site
+  > * open new cmd >>
+      > 1. mkdir the-news-dragon-server
+      > 2. cd the-news-dragon-server
+      > 3. npm init -y
+      > 4. code .
+      > 5. npm install express
+  > * create index.js 
+    * cmd > nodemon index.js
+    * create data>categories (pasts data)
+* *---------------------Now go to the client set up ----------------------
+*  > 1. set a state and fetch the data using useEffect(). if there are some problem occurs 
+         such as accessing  data problem  we have set up the cors to the server side
+   > 2. go to the expressjs> resources> middleware> cors
+   > 3. cmd(server) > npm install cors   
+   > 4. then require, and use the cors in the index.js  
+
    

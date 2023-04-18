@@ -10,9 +10,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 
+
 const Header = () => {
     return (
-        <Container>
+        <Container className='mt-4'>
             <div className="text-center">
                 <img src={logo} alt="" />
                 <p className='text-secondary'><small>Journalism Without Fear or Favour</small></p>
