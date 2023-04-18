@@ -2,13 +2,11 @@
  * Step:1 ==> First of all, Project setup::
     1. go to the "react router website" for following the tutorial for some essential command.
     2. open cmd 
-        >>npm create vite@latest the-news-dragon-client -- --template react
-        >> cd the-news-dragon-client
-        >>npm install react-router-dom localforage match-sorter sort-by
-        >>npm i firebase
-         (i == install)
-        >> code . 
-         (for open the project at vscode)
+        >> * npm create vite@latest the-news-dragon-client -- --template react
+        >> * cd the-news-dragon-client
+        >> * npm install react-router-dom localforage match-sorter sort-by
+        >> * npm i firebase (i == install)
+        >> * code . (for open the project at vscode)
 
  * Step:2 ==> Firebase setup ::
        * go to the firebase.google.com
