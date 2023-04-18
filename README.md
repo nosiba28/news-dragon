@@ -1,7 +1,7 @@
  * A project using "vite"
  * Step:1 ==> First of all, Project setup::
-         1. go to the "react router website" for following the tutorial for some essential command.
-         2. open cmd 
+    1. go to the "react router website" for following the tutorial for some essential command.
+    2. open cmd 
          >npm create vite@latest the-news-dragon-client -- --template react
          > cd the-news-dragon-client
          >npm install react-router-dom localforage match-sorter sort-by
@@ -38,9 +38,17 @@
 * .......................................................
      *   SOME NECESSARY Tools...
 * ....................................................
-  ==>>> (Working with timezone)
+ * ==>>> (Working with timezone)
    1. for time set up go to ==> "https://momentjs.com/"
    2. install cmd> npm install moment
    3. import at header ==>import moment from 'moment';
    4. moment().format("dddd, MMMM D, YYYY")
+   ====>>> (marquee)
+   1. go to the "react marquee" website
+   2. cmd> npm install react-fast-marquee --save
+   3. import >> import Marquee from "react-fast-marquee";
+   ===>>> (icons)
+   1. go to the "react icons" site
+   2. cmd> npm install react-icons --save
+   3. import { IconName } from "react-icons/fa";
    
