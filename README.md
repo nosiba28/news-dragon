@@ -2,12 +2,12 @@
  * Step:1 ==> First of all, Project setup::
     1. go to the "react router website" for following the tutorial for some essential command.
     2. open cmd 
-         >npm create vite@latest the-news-dragon-client -- --template react
-         > cd the-news-dragon-client
-         >npm install react-router-dom localforage match-sorter sort-by
-         >npm i firebase
+        >>npm create vite@latest the-news-dragon-client -- --template react
+        >> cd the-news-dragon-client
+        >>npm install react-router-dom localforage match-sorter sort-by
+        >>npm i firebase
          (i == install)
-         >code . 
+        >> code . 
          (for open the project at vscode)
 
  * Step:2 ==> Firebase setup ::
@@ -43,11 +43,11 @@
    2. install cmd> npm install moment
    3. import at header ==>import moment from 'moment';
    4. moment().format("dddd, MMMM D, YYYY")
-   ====>>> (marquee)
+  * ====>>> (marquee)
    1. go to the "react marquee" website
    2. cmd> npm install react-fast-marquee --save
    3. import >> import Marquee from "react-fast-marquee";
-   ===>>> (icons)
+  * ===>>> (icons)
    1. go to the "react icons" site
    2. cmd> npm install react-icons --save
    3. import { IconName } from "react-icons/fa";
