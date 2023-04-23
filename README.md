@@ -64,7 +64,7 @@
   > * create index.js 
     * cmd > nodemon index.js
     * create data>categories (pasts data)
-* *---------------------Now go to the client set up ----------------------
+* * ---------------------Now go to the client set up ----------------------
 *  > 1. set a state and fetch the data using useEffect(). if there are some problem occurs 
          such as accessing  data problem  we have set up the cors to the server side
    > 2. go to the expressjs> resources> middleware> cors
@@ -72,5 +72,18 @@
    > 4. then require, and use the cors in the index.js  
 
    * NOTE: if we want to push the server file into the git then we have to create a file .gitignore then write (node_modules)
+
+* --------------------------------------------------------------
+*      AUTHENTICATION
+* -----------------------------------------------------------------
+  > 1. Create provider>AuthProvider
+  > 2. For using AuthProvider we have to Create Context. As we use it from different files for different angles so we need to export it.
+  > 3.  <AuthContext.Provider value={authInfo}>
+            {children} 
+    </AuthContext.Provider> and take a children as an argument.
+  > 4. Then go to the main.jsx and set RouterProvider into the AuthProvider
+  > 5. go to AuthProvider and import>> import { getAuth } from "firebase/auth";
+  > 6. create a auth>> const auth = getAuth(app); to use this from anywhere
+  > 7. Now we can use this from anywhere such as: const {user} = useContext(AuthContext);
 
    
