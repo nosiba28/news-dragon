@@ -86,4 +86,8 @@
   > 6. create a auth>> const auth = getAuth(app); to use this from anywhere
   > 7. Now we can use this from anywhere such as: const {user} = useContext(AuthContext);
 
+
+  * https://github.com/brillout/awesome-react-components
+  * Live site (client): https://the-news-dragon-7f1fd.web.app/
+
    
